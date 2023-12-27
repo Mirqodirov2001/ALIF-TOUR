@@ -1,0 +1,189 @@
+.carousel1 {
+  margin-top: 40px;
+  height: 220px;
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  gap: 1.2rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .card1 {
+    scroll-snap-align: start;
+    border-radius: 10px;
+    width: 310px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+        rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+        rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+      border: black;
+    }
+  }
+}
+
+.sm {
+  margin-left: 24px;
+  margin-top: 146px;
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media screen and (min-width: '767px') {
+  .sm1 {
+    background: url('../../assets/images/Hotels.png');
+  }
+
+  .sm2 {
+    background: url('../../assets//images/Apparments.png');
+  }
+
+  .sm3 {
+    background: url('../../assets//images/Resorts.png');
+  }
+
+  .sm4 {
+    background: url('../../assets//images/Villas.png');
+  }
+
+  .sm5 {
+    background: url('../../assets//images/Hotels.png');
+  }
+
+  .plan {
+    background: url('../../assets//images/planem.png');
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: '375px'), (max-width: '767px') {
+  #browse {
+    .carousel1 {
+      margin-top: 0;
+      margin-top: 24px;
+      height: 400px;
+      width: 700px;
+    }
+    margin-top: 0;
+    margin-top: 60px;
+    .h3 {
+      font-size: 24px;
+    }
+
+    .card1 {
+      background-image: url('../../assets/images/Rectangle\ 6.png');
+      background-repeat: no-repeat;
+      width: 285px;
+      height: 350px;
+    }
+    .sm {
+      font-size: 20px;
+      color: #000;
+      margin-top: 310px;
+      margin-left: 0;
+      font-weight: 700;
+    }
+    .plan {
+      background-image: url('../../assets/images/image\ 42.png');
+      background-repeat: no-repeat;
+      height: 0;
+      height: 320px;
+
+      div {
+        margin-left: 0;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: '490px'), (max-width: '767px') {
+  .plan {
+    background-image: url('../../assets/images/image\ 42.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+
+@media screen and (max-width: '375px'),(max-width: '440px') {
+  .plan {
+    h1 {
+      font-size: 26px;
+      margin-left: 0;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+
+@media screen and (min-width: '441px'){
+  .plan {
+    h1 {
+      font-size: 30px;
+      margin-left: 0;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (min-width: '530px') {
+  .plan {
+    h1 {
+      font-size: 38px;
+      margin-left: 0;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (min-width: '600px') {
+  .plan {
+    h1 {
+      font-size: 42px;
+      margin-left: 0;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (min-width: '650px') {
+  .plan {
+    h1 {
+      font-size: 46px;
+      margin-left: 0;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: '700px') {
+  .plan {
+    h1 {
+      font-size: 50px;
+      margin-left: 0;
+    }
+    p {
+      font-size: 22px;
+    }
+  }
+}

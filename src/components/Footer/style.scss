@@ -1,0 +1,28 @@
+.swap{
+  p:hover{
+   color: white;
+   cursor: pointer;
+  }
+}
+
+
+#footer{
+ background-color: #141414;
+}
+
+@media screen and (max-width: '375px'),(max-width:'767px') {
+  #footer {
+    width: 769px;
+    height: 288px;
+
+  }
+}
+
+@media screen and (max-width: '767px') {
+  #footer {
+   .footer1{
+    display: none;
+   }
+
+}
+}

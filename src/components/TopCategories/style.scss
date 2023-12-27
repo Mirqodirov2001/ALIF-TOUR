@@ -1,0 +1,59 @@
+.text {
+  position: relative;
+  cursor: pointer;
+  &::after {
+    content: '';
+    background-color: #ffffff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: scale(0);
+    height: 2px;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  &:hover::after {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: '767px'), (max-width: '375px') {
+  #top {
+    h1 {
+      font-size: 24px !important;
+      color: black;
+      padding-top: 16px;
+    }
+    p {
+      font-size: 14px;
+    }
+
+    img {
+      margin-left: 4px;
+    }
+    .img {
+      margin-left: 5px;
+    }
+    .gap {
+      column-gap: 20px;
+    }
+    .text {
+      &::after {
+        position: relative;
+        cursor: pointer;
+        content: '';
+        background-color: #0099ff;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        transform: scale(0);
+        height: 2px;
+        width: 100%;
+        transition: all 0.3s ease;
+      }
+      &:hover::after {
+        transform: scale(1);
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.ant-drawer-title {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-size: 20px !important;
+  color: rgb(123, 121, 121) !important;
+}
+
+
+@media screen and (min-width: '767px') {
+  #menu {
+    display: none;
+  }
+}

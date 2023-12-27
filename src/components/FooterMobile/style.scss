@@ -1,0 +1,40 @@
+@media screen and (min-width: '768px') {
+  #FooterMobile {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: '390px') {
+  #FooterMobile {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (min-width: '414px') {
+  #FooterMobile {
+    margin-left: 30px;
+  }
+}
+
+
+
+@media screen and (min-width: '420px') {
+  #FooterMobile {
+    margin-left: 35px;
+  }
+}
+
+
+@media screen and (min-width: '480px') {
+  #FooterMobile {
+    margin-left: 50px;
+  }
+}
+
+
+@media screen and (min-width: '530px') {
+  #FooterMobile {
+    margin-left: 70px;
+  }
+}
